@@ -7,4 +7,11 @@ while True :
   userinput = int(input("guess:" ))
 
   if userinput == randomnumber:
-    print("congrats:" )
+    print("congrats:" + str (score))
+    break
+  else:
+    print("fucker yah:")
+    score -= 1
+
+
+
