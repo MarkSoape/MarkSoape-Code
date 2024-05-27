@@ -1,0 +1,10 @@
+Import random
+
+score = 10
+randomnumber = random.int(1,10)
+
+while True :
+  userinput = int(input("guess:" ))
+
+  if userinput == randomnumber:
+    print("congrats:" )
